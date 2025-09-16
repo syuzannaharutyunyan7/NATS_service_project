@@ -4,7 +4,7 @@ A Python-based event-driven microservice application that demonstrates a **3-lay
 
 ---
 
-## 📖 Overview
+## Overview
 
 This application listens to messages published to a **NATS server** and saves them into a **PostgreSQL** database.
 
@@ -20,7 +20,7 @@ It is designed as a **lightweight demonstration of microservices architecture** 
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * **Language:** Python 3.10+
 * **Messaging:** [NATS](https://nats.io/)
@@ -30,7 +30,7 @@ It is designed as a **lightweight demonstration of microservices architecture** 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 nats_service_project/
@@ -53,7 +53,7 @@ nats_service_project/
 
 ---
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before running the project, ensure you have installed:
 
@@ -64,7 +64,7 @@ Before running the project, ensure you have installed:
 
 ---
 
-## ⚙️ Local Setup
+## Local Setup
 
 ### 1. Clone the repository
 
@@ -87,7 +87,7 @@ This will start:
 
 ---
 
-## ▶️ Usage
+## Usage
 
 1. Start the app with Docker as above.
 2. In a new terminal, publish a test message with:
@@ -101,7 +101,7 @@ This will start:
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 
 To verify the service layer logic:
 
@@ -111,7 +111,7 @@ pytest
 
 ---
 
-## 📊 Example Flow
+## Example Flow
 
 * Publisher sends a message:
 
@@ -124,7 +124,7 @@ pytest
 
 ---
 
-## 📡 API & Messaging
+## API & Messaging
 
 | Component     | Function                         |
 | ------------- | -------------------------------- |
@@ -135,7 +135,7 @@ pytest
 
 ---
 
-## 🚀 Features
+## Features
 
 * Event-driven architecture with **NATS**
 * Clean **3-layer separation** (API, Service, Data)
@@ -146,13 +146,13 @@ pytest
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
 
 ---
 
-👩‍💻 **Author:** Syuzanna Harutyunyan
+**Author:** Syuzanna Harutyunyan
 
 ---
 
